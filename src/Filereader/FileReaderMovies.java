@@ -6,7 +6,7 @@ import java.io.File;
 
 public class FileReaderMovies {
 
-    public static void main(String[] args) throws IOException{
+    public void readFileMovies(String[] args) throws IOException{
         String file = "src/movies.dat";
         Scanner scanner = new Scanner(new File(file));
         scanner.useDelimiter(" ");
