@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 
 public class FileReaderUsers {
-        public void readFileUser(String[] args) throws IOException {
-        String file = "src/users.dat";
+        public void readFileUser(String[] args) throws IOException{
+            String file = "src/users.dat";
         Scanner scanner = new Scanner(new File(file));
         scanner.useDelimiter(" ");
 

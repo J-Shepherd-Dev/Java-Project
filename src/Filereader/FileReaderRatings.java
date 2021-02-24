@@ -18,8 +18,8 @@ import java.io.File;
             String next = scanner.next();
             System.out.println(next);
         }
+            scanner.close();
 
-        scanner.close();
 
 
 
